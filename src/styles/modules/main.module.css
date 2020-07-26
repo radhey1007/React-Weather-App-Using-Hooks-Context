@@ -1,0 +1,7 @@
+.main {
+    background-image: linear-gradient(-225deg, #69EACB 0%, #EACCF8 48%, #6654F1 100%);    padding-right: 10px;
+    min-height:550px;
+    min-width: 950px;
+    position: relative;
+    top:10px;
+} 

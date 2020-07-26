@@ -1,38 +1,49 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+
+.serachBar {
+  width:50%;
+  border:none;
+  padding: 0px;
+  padding: 15px;
+}
+.serachButton {
+  background: blueviolet;
+  border: none;
   color: white;
+  padding: 15px 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.weatherSearch {
+  text-align: center;
+  justify-content: center;
+  display: flex;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.weatherSearchForm {
+  width: 600px;
+  top: 20px;
+  position: relative;
+}
+.weatherInfo {
+  text-align: center;
+  justify-content: center;
+  background-image: linear-gradient(to top, #0ba360 0%, #3cba92 100%);
+  top: 30px;
+  position: relative;
+}
+.error {
+  text-align: center;
+  justify-content: center;
+  top: 30px;
+  position: relative;
+  color:red;
+}
+.dateTime{
+  text-align: right;
+  justify-content: right;
+  top: 5px;
+  position: relative;
+  color:green;
+  padding-right: 60px;
 }
